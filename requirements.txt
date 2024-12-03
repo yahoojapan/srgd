@@ -1,0 +1,5 @@
+denoising-diffusion-pytorch==1.8.15
+logzero
+timm
+torch
+torchvision

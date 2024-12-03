@@ -1,0 +1,50 @@
+save_dir: srgd
+prefix: conditional_continuous_linear_df8kost_dim128
+
+lr: 1e-4
+min_lr: 1e-7
+warmup_epochs: 30
+epochs: 300
+
+ema_decay: 0.9999
+
+class_cond_drop_prob: 0.1
+
+conditional_task_type: realsr_denoise_sr
+
+model: conditional_continuous
+noise_schedule: linear
+num_sample_steps: 250
+val_num_sample_steps: 250
+skip_val: true
+
+dataset_name: cropped_df8kost_400x400_overlap200
+
+crop_size_limit: false
+use_dpmpp_solver: true
+validation_ratio: 0.5
+
+batch_size: 16
+
+scale_size: 400
+crop_size: 256
+image_size: 256
+hr_image_size: 256
+lr_image_size: 64
+
+crop_rate: 1
+
+num_workers: 16
+
+hflip: true
+rotate: true
+
+sample_size: 16
+
+unet_dim: 128
+ddpm_unet_dim_mults: '1,2,4,8'
+
+learned_variance: false
+learned_sinusoidal_cond: true
+learned_sinusoidal_dim: 32
+
