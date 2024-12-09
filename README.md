@@ -1,5 +1,7 @@
 # Real-SRGD: Enhancing Real-World Image Super-Resolution with Classifier-Free Guided Diffusion [ACCV2024]
 
+[[Paper]](https://openaccess.thecvf.com/content/ACCV2024/html/Doi_Real-SRGD_Enhancing_Real-World_Image_Super-Resolution_with_Classifier-Free_Guided_Diffusion_ACCV_2024_paper.html)
+
 This is the official PyTorch implementation of "Real-SRGD: Enhancing Real-World Image Super-Resolution with Classifier-Free Guided Diffusion (ACCV2024)".
 
 ## Installation
